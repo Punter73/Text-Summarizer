@@ -41,3 +41,50 @@ Source-Age: 1
 [2025-09-17 20:25:58,687: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
 
 x==========x:]
+[2025-09-17 21:24:55,794: INFO: common: yaml file: config/config.yaml loaded successfully:]
+[2025-09-17 21:24:55,795: INFO: common: yaml file: params.yaml loaded successfully:]
+[2025-09-17 21:24:55,796: INFO: common: created directory at: artifacts:]
+[2025-09-17 21:32:35,721: INFO: common: yaml file: config/config.yaml loaded successfully:]
+[2025-09-17 21:32:35,723: INFO: common: yaml file: params.yaml loaded successfully:]
+[2025-09-17 21:32:35,724: INFO: common: created directory at: artifacts:]
+[2025-09-17 21:32:35,725: INFO: common: created directory at: artifacts/data_validation:]
+[2025-09-17 21:46:30,396: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<:]
+[2025-09-17 21:46:30,399: INFO: common: yaml file: config/config.yaml loaded successfully:]
+[2025-09-17 21:46:30,400: INFO: common: yaml file: params.yaml loaded successfully:]
+[2025-09-17 21:46:30,400: INFO: common: created directory at: artifacts:]
+[2025-09-17 21:46:30,401: INFO: common: created directory at: artifacts/data_ingestion:]
+[2025-09-17 21:46:30,401: INFO: data_ingestion: File already exists of size: ~ 7718 KB:]
+[2025-09-17 21:46:30,607: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x:]
+[2025-09-17 21:46:30,607: INFO: main: >>>>>> stage Data Validation stage started <<<<<<:]
+[2025-09-17 21:46:30,609: INFO: common: yaml file: config/config.yaml loaded successfully:]
+[2025-09-17 21:46:30,609: INFO: common: yaml file: params.yaml loaded successfully:]
+[2025-09-17 21:46:30,609: INFO: common: created directory at: artifacts:]
+[2025-09-17 21:46:30,609: INFO: common: created directory at: artifacts/data_validation:]
+[2025-09-17 21:46:30,610: ERROR: main: 'DataValidation' object has no attribute 'download_file':]
+Traceback (most recent call last):
+  File "/home/punter/Documents/[2]Projects/Text-Summarizer/main.py", line 19, in <module>
+    data_validation.main()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/punter/Documents/[2]Projects/Text-Summarizer/src/TextSummarizer/pipeline/stage_02_data_validation.py", line 15, in main
+    data_validation.download_file()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataValidation' object has no attribute 'download_file'
+[2025-09-17 21:48:15,820: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<:]
+[2025-09-17 21:48:15,823: INFO: common: yaml file: config/config.yaml loaded successfully:]
+[2025-09-17 21:48:15,824: INFO: common: yaml file: params.yaml loaded successfully:]
+[2025-09-17 21:48:15,824: INFO: common: created directory at: artifacts:]
+[2025-09-17 21:48:15,824: INFO: common: created directory at: artifacts/data_ingestion:]
+[2025-09-17 21:48:15,825: INFO: data_ingestion: File already exists of size: ~ 7718 KB:]
+[2025-09-17 21:48:16,066: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x:]
+[2025-09-17 21:48:16,067: INFO: main: >>>>>> stage Data Validation stage started <<<<<<:]
+[2025-09-17 21:48:16,068: INFO: common: yaml file: config/config.yaml loaded successfully:]
+[2025-09-17 21:48:16,068: INFO: common: yaml file: params.yaml loaded successfully:]
+[2025-09-17 21:48:16,068: INFO: common: created directory at: artifacts:]
+[2025-09-17 21:48:16,069: INFO: common: created directory at: artifacts/data_validation:]
+[2025-09-17 21:48:16,069: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x:]
